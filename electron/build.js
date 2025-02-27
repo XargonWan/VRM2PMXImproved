@@ -11,6 +11,14 @@ builder.build({
                 ]
             }
         },
+        'linux': {
+            'target': {
+                'target': 'AppImage',
+                'arch': [
+                    'x64',
+                ]
+            }
+        },
         "extraFiles": [
             "convert.json"
         ],
